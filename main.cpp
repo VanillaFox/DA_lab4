@@ -1,4 +1,4 @@
-#include"Trie.h"
+#include"trie.h"
 #include"text.h"
 #include <iostream>
 #include<vector>
