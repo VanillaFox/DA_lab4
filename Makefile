@@ -1,4 +1,3 @@
-
 CC=g++
 
 CFLAGS=--std=c++14 -c -O3
