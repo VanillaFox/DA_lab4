@@ -23,8 +23,8 @@ void ReadPattern(std::vector<std::pair<int, std::vector<uint32_t>>>& patterns) {
 		}
 		count++;
 	}
-	if(!pattern.empty()){
-	patterns.push_back({ count - 1, pattern });
+	if(count > 0){
+		patterns.push_back({ count - 1, pattern });
 	}
 }
 
